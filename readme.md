@@ -28,4 +28,8 @@ That's it.
 
 ## Installation
 
-Coming soon.
+Via [npm](https://www.npmjs.com/package/@raymondcamden/pdf-embed) or download [pdf-embed.js](./pdf-embed.js) directly.
+
+```
+npm i @raymondcamden/table-sorter
+```
