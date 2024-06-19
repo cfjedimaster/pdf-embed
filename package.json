@@ -1,6 +1,6 @@
 {
   "name": "@raymondcamden/pdf-embed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A web component that adds support for Adobe's [PDF Embed API](https://developer.adobe.com/document-services/apis/pdf-embed/). This (free) library lets you add a PDF display to your web page, controlling the size, reading experience and so forth. This web component doesn't expose every feature of the library but should cover most use cases. You can read more about the API [here](https://developer.adobe.com/document-services/docs/overview/pdf-embed-api/).",
   "main": "pdf-embed.js",
   "scripts": {
