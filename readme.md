@@ -20,6 +20,8 @@ You can optionally pass in `embedMode` which is one of four values:
 * IN_LINE - Will show the *entire* PDF in a long vertical div. Be careful with this one.
 * LIGHT_BOX - This won't throw an error, but isn't really a good use case for the component. I'd avoid this one.
 
+Finally, the component also supports an optional `width` and `height` attribute.
+
 ### Example 
 
 ```html
