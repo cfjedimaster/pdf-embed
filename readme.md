@@ -11,7 +11,7 @@ You must have a client ID created at Adobe's Developer Console. You can sign up 
 
 ## Usage
 
-There are two required attributes, `url` and `key`. The URL should be a publicly accessible pointer to your PDF. The key is the credential you got from the Adobe developer console.
+There are two required attributes, `url` and `key`. The URL should be a publicly accessible pointer to your PDF. The key is the credential you got from the Adobe developer console. The key shown below will work in `localhost` and feel free to use it.
 
 You can optionally pass in `embedMode` which is one of four values:
 
@@ -26,7 +26,7 @@ Finally, the component also supports an optional `width` and `height` attribute.
 
 ```html
 <pdf-embed url="https://documentservices.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"
-		   key="bce5ad180d164236b0998429b39d77cf">
+		   key="9861538238544ff39d37c6841344b78d">
 
 	<p>
 		Read our cool PDF <a href="https://documentservices.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf">here</a>.
@@ -35,6 +35,8 @@ Finally, the component also supports an optional `width` and `height` attribute.
 </pdf-embed>
 ```
 
+See it in action here: <https://cfjedimaster.github.io/pdf-embed/demo.html>
+
 ## Installation
 
 Via [npm](https://www.npmjs.com/package/@raymondcamden/pdf-embed) or download [pdf-embed.js](./pdf-embed.js) directly.
@@ -42,3 +44,7 @@ Via [npm](https://www.npmjs.com/package/@raymondcamden/pdf-embed) or download [p
 ```
 npm i @raymondcamden/table-sorter
 ```
+
+## History
+
+* 6/19/2024 - moved display to connectedCallback, added demo (not linked to yet - waiting to get a key for github)
