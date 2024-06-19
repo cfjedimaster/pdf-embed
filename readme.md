@@ -47,4 +47,4 @@ npm i @raymondcamden/table-sorter
 
 ## History
 
-* 6/19/2024 - moved display to connectedCallback, added demo (not linked to yet - waiting to get a key for github)
+* 6/19/2024 - moved display to connectedCallback, added demo
